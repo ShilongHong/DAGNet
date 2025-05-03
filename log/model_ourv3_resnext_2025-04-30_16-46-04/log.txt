@@ -1,0 +1,91 @@
+Run time in 2025-04-30_16-46-04, Model:model_ourv3_resnext更新内容：实验-model_ourv3_resnext
+Current Configuration:
+            Model Name: model_ourv3_resnext
+            Parameters: 35.082M
+            FLOPs: 16.075G
+            Depth Multiplier: 3
+            Expansion: 2
+            Start Epoch: 0
+            Total Epochs: 60
+            Input Shape: [256, 256]
+            Batch Size: 32
+            Workers Per Process: 16
+            Learning Rate: 0.0001
+            Weight Decay: 0.001
+            Gradient Clip: 5
+            Data Paths:
+                Training: ./data/DvXray_train.txt
+                Validation: ./data/DvXray_val.txt
+            Evaluation Mode: False
+            Checkpoint: None
+            EMA: True
+            Mixed Precision: True
+            Alpha: 0.7
+            Distributed Training: True
+            World Size: 2
+Epoch 1, lr:1.000e-04, train_loss:6.563e-01, val_mAP: 0.1093, val_precision:0.0691, val_recall:0.1665, val_f1_score:0.0542, val_ROC:0.6788, val_loss:5.2701e-01
+Epoch 2, lr:1.675e-05, train_loss:4.075e-01, val_mAP: 0.1783, val_precision:0.1333, val_recall:0.0641, val_f1_score:0.0669, val_ROC:0.8449, val_loss:2.7188e-01
+Epoch 3, lr:3.336e-05, train_loss:2.087e-01, val_mAP: 0.3020, val_precision:0.2860, val_recall:0.1332, val_f1_score:0.1727, val_ROC:0.8680, val_loss:1.6545e-01
+Epoch 4, lr:4.993e-05, train_loss:1.236e-01, val_mAP: 0.3552, val_precision:0.3751, val_recall:0.1591, val_f1_score:0.2088, val_ROC:0.8864, val_loss:1.0655e-01
+Epoch 5, lr:6.645e-05, train_loss:8.873e-02, val_mAP: 0.4645, val_precision:0.5896, val_recall:0.2982, val_f1_score:0.3363, val_ROC:0.8531, val_loss:9.4894e-02
+Epoch 6, lr:8.292e-05, train_loss:7.339e-02, val_mAP: 0.4711, val_precision:0.5422, val_recall:0.2607, val_f1_score:0.3268, val_ROC:0.8782, val_loss:9.1252e-02
+Epoch 7, lr:9.925e-05, train_loss:6.437e-02, val_mAP: 0.5648, val_precision:0.6061, val_recall:0.3911, val_f1_score:0.4160, val_ROC:0.8971, val_loss:7.2085e-02
+Epoch 8, lr:9.837e-05, train_loss:5.926e-02, val_mAP: 0.5994, val_precision:0.7539, val_recall:0.3581, val_f1_score:0.4326, val_ROC:0.9319, val_loss:5.7655e-02
+Epoch 9, lr:9.736e-05, train_loss:5.585e-02, val_mAP: 0.5865, val_precision:0.6420, val_recall:0.4268, val_f1_score:0.4878, val_ROC:0.8771, val_loss:6.3414e-02
+Epoch 10, lr:9.623e-05, train_loss:5.232e-02, val_mAP: 0.6770, val_precision:0.8305, val_recall:0.3995, val_f1_score:0.4690, val_ROC:0.9340, val_loss:5.4551e-02
+Epoch 11, lr:9.497e-05, train_loss:4.969e-02, val_mAP: 0.6153, val_precision:0.8112, val_recall:0.4332, val_f1_score:0.5024, val_ROC:0.8926, val_loss:7.4414e-02
+Epoch 12, lr:9.359e-05, train_loss:4.710e-02, val_mAP: 0.7193, val_precision:0.8765, val_recall:0.4923, val_f1_score:0.5632, val_ROC:0.9366, val_loss:4.9633e-02
+Epoch 13, lr:9.210e-05, train_loss:4.506e-02, val_mAP: 0.6855, val_precision:0.8698, val_recall:0.4363, val_f1_score:0.5249, val_ROC:0.9187, val_loss:5.1172e-02
+Epoch 14, lr:9.049e-05, train_loss:4.356e-02, val_mAP: 0.7149, val_precision:0.9088, val_recall:0.5166, val_f1_score:0.5916, val_ROC:0.9347, val_loss:4.7803e-02
+Epoch 15, lr:8.878e-05, train_loss:4.249e-02, val_mAP: 0.6865, val_precision:0.8194, val_recall:0.5266, val_f1_score:0.6106, val_ROC:0.9178, val_loss:5.4636e-02
+Epoch 16, lr:8.697e-05, train_loss:4.016e-02, val_mAP: 0.7482, val_precision:0.8660, val_recall:0.5581, val_f1_score:0.6301, val_ROC:0.9506, val_loss:4.7513e-02
+Epoch 17, lr:8.505e-05, train_loss:3.937e-02, val_mAP: 0.7408, val_precision:0.8582, val_recall:0.5683, val_f1_score:0.6585, val_ROC:0.9488, val_loss:4.1896e-02
+Epoch 18, lr:8.305e-05, train_loss:3.804e-02, val_mAP: 0.7643, val_precision:0.9352, val_recall:0.5161, val_f1_score:0.6090, val_ROC:0.9561, val_loss:4.3305e-02
+Epoch 19, lr:8.096e-05, train_loss:3.614e-02, val_mAP: 0.8017, val_precision:0.8696, val_recall:0.6762, val_f1_score:0.7382, val_ROC:0.9562, val_loss:3.7421e-02
+Epoch 20, lr:7.878e-05, train_loss:3.542e-02, val_mAP: 0.7890, val_precision:0.8927, val_recall:0.6028, val_f1_score:0.6919, val_ROC:0.9622, val_loss:3.9005e-02
+Epoch 21, lr:7.654e-05, train_loss:3.457e-02, val_mAP: 0.8127, val_precision:0.8875, val_recall:0.6674, val_f1_score:0.7352, val_ROC:0.9630, val_loss:3.5226e-02
+Epoch 22, lr:7.422e-05, train_loss:3.312e-02, val_mAP: 0.7727, val_precision:0.9001, val_recall:0.5615, val_f1_score:0.6592, val_ROC:0.9645, val_loss:4.1977e-02
+Epoch 23, lr:7.184e-05, train_loss:3.274e-02, val_mAP: 0.7829, val_precision:0.9203, val_recall:0.5947, val_f1_score:0.6911, val_ROC:0.9452, val_loss:3.9405e-02
+Epoch 24, lr:6.940e-05, train_loss:3.160e-02, val_mAP: 0.8213, val_precision:0.9439, val_recall:0.6191, val_f1_score:0.7244, val_ROC:0.9647, val_loss:3.9098e-02
+Epoch 25, lr:6.692e-05, train_loss:3.159e-02, val_mAP: 0.8015, val_precision:0.8886, val_recall:0.6378, val_f1_score:0.7051, val_ROC:0.9619, val_loss:4.4068e-02
+Epoch 26, lr:6.439e-05, train_loss:3.018e-02, val_mAP: 0.8027, val_precision:0.9353, val_recall:0.5433, val_f1_score:0.6441, val_ROC:0.9677, val_loss:4.4224e-02
+Epoch 27, lr:6.183e-05, train_loss:2.896e-02, val_mAP: 0.8413, val_precision:0.9183, val_recall:0.7040, val_f1_score:0.7798, val_ROC:0.9741, val_loss:2.9746e-02
+Epoch 28, lr:5.924e-05, train_loss:2.826e-02, val_mAP: 0.8278, val_precision:0.8813, val_recall:0.6823, val_f1_score:0.7352, val_ROC:0.9709, val_loss:3.5221e-02
+Epoch 29, lr:5.662e-05, train_loss:2.731e-02, val_mAP: 0.8369, val_precision:0.9229, val_recall:0.6684, val_f1_score:0.7486, val_ROC:0.9713, val_loss:3.5150e-02
+Epoch 30, lr:5.399e-05, train_loss:2.767e-02, val_mAP: 0.8335, val_precision:0.8606, val_recall:0.6933, val_f1_score:0.7376, val_ROC:0.9714, val_loss:3.9488e-02
+Epoch 31, lr:5.136e-05, train_loss:2.612e-02, val_mAP: 0.8156, val_precision:0.8718, val_recall:0.6952, val_f1_score:0.7500, val_ROC:0.9617, val_loss:3.7144e-02
+Epoch 32, lr:4.872e-05, train_loss:2.591e-02, val_mAP: 0.8549, val_precision:0.9282, val_recall:0.7121, val_f1_score:0.7981, val_ROC:0.9767, val_loss:3.0071e-02
+Epoch 33, lr:4.609e-05, train_loss:2.440e-02, val_mAP: 0.8542, val_precision:0.9240, val_recall:0.6683, val_f1_score:0.7476, val_ROC:0.9770, val_loss:3.5896e-02
+Epoch 34, lr:4.348e-05, train_loss:2.335e-02, val_mAP: 0.8753, val_precision:0.9445, val_recall:0.7252, val_f1_score:0.8018, val_ROC:0.9791, val_loss:2.9491e-02
+Epoch 35, lr:4.089e-05, train_loss:2.375e-02, val_mAP: 0.8701, val_precision:0.9110, val_recall:0.7363, val_f1_score:0.8086, val_ROC:0.9815, val_loss:2.8007e-02
+Epoch 36, lr:3.832e-05, train_loss:2.339e-02, val_mAP: 0.8602, val_precision:0.8851, val_recall:0.7388, val_f1_score:0.7925, val_ROC:0.9775, val_loss:2.9371e-02
+Epoch 37, lr:3.580e-05, train_loss:2.249e-02, val_mAP: 0.8610, val_precision:0.8985, val_recall:0.7519, val_f1_score:0.8119, val_ROC:0.9774, val_loss:2.9297e-02
+Epoch 38, lr:3.331e-05, train_loss:2.141e-02, val_mAP: 0.8847, val_precision:0.9405, val_recall:0.7137, val_f1_score:0.8045, val_ROC:0.9858, val_loss:2.7620e-02
+Epoch 39, lr:3.088e-05, train_loss:2.120e-02, val_mAP: 0.8746, val_precision:0.8930, val_recall:0.7823, val_f1_score:0.8270, val_ROC:0.9825, val_loss:2.5975e-02
+Epoch 40, lr:2.850e-05, train_loss:2.056e-02, val_mAP: 0.8657, val_precision:0.9189, val_recall:0.7589, val_f1_score:0.8222, val_ROC:0.9772, val_loss:2.7072e-02
+Epoch 41, lr:2.618e-05, train_loss:2.051e-02, val_mAP: 0.8608, val_precision:0.9201, val_recall:0.7421, val_f1_score:0.8102, val_ROC:0.9769, val_loss:2.8469e-02
+Epoch 42, lr:2.393e-05, train_loss:1.935e-02, val_mAP: 0.8643, val_precision:0.9144, val_recall:0.7458, val_f1_score:0.8106, val_ROC:0.9798, val_loss:2.7785e-02
+Epoch 43, lr:2.176e-05, train_loss:1.931e-02, val_mAP: 0.8669, val_precision:0.9109, val_recall:0.7442, val_f1_score:0.8076, val_ROC:0.9801, val_loss:2.8142e-02
+Epoch 44, lr:1.967e-05, train_loss:1.844e-02, val_mAP: 0.8590, val_precision:0.9298, val_recall:0.7278, val_f1_score:0.8037, val_ROC:0.9779, val_loss:2.9361e-02
+Epoch 45, lr:1.766e-05, train_loss:1.808e-02, val_mAP: 0.8623, val_precision:0.8976, val_recall:0.7622, val_f1_score:0.8162, val_ROC:0.9756, val_loss:3.0707e-02
+Epoch 46, lr:1.575e-05, train_loss:1.699e-02, val_mAP: 0.8883, val_precision:0.9342, val_recall:0.7797, val_f1_score:0.8402, val_ROC:0.9831, val_loss:2.6249e-02
+Epoch 47, lr:1.393e-05, train_loss:1.726e-02, val_mAP: 0.8844, val_precision:0.9263, val_recall:0.7650, val_f1_score:0.8306, val_ROC:0.9813, val_loss:2.6558e-02
+Epoch 48, lr:1.222e-05, train_loss:1.684e-02, val_mAP: 0.8868, val_precision:0.9294, val_recall:0.7662, val_f1_score:0.8337, val_ROC:0.9822, val_loss:2.6103e-02
+Epoch 49, lr:1.062e-05, train_loss:1.561e-02, val_mAP: 0.8743, val_precision:0.9428, val_recall:0.7289, val_f1_score:0.8122, val_ROC:0.9811, val_loss:2.8961e-02
+Epoch 50, lr:9.124e-06, train_loss:1.647e-02, val_mAP: 0.8878, val_precision:0.9420, val_recall:0.7526, val_f1_score:0.8284, val_ROC:0.9823, val_loss:2.5480e-02
+Epoch 51, lr:7.747e-06, train_loss:1.637e-02, val_mAP: 0.8903, val_precision:0.9531, val_recall:0.7413, val_f1_score:0.8266, val_ROC:0.9837, val_loss:2.6994e-02
+Epoch 52, lr:6.489e-06, train_loss:1.622e-02, val_mAP: 0.8812, val_precision:0.9438, val_recall:0.7289, val_f1_score:0.8156, val_ROC:0.9821, val_loss:2.8101e-02
+Epoch 53, lr:5.354e-06, train_loss:1.597e-02, val_mAP: 0.8867, val_precision:0.9404, val_recall:0.7527, val_f1_score:0.8311, val_ROC:0.9838, val_loss:2.7239e-02
+Epoch 54, lr:4.345e-06, train_loss:1.663e-02, val_mAP: 0.8926, val_precision:0.9415, val_recall:0.7534, val_f1_score:0.8308, val_ROC:0.9848, val_loss:2.5857e-02
+Epoch 55, lr:3.465e-06, train_loss:1.678e-02, val_mAP: 0.8849, val_precision:0.9326, val_recall:0.7388, val_f1_score:0.8177, val_ROC:0.9836, val_loss:2.6992e-02
+Epoch 56, lr:2.716e-06, train_loss:1.582e-02, val_mAP: 0.8897, val_precision:0.9353, val_recall:0.7392, val_f1_score:0.8201, val_ROC:0.9840, val_loss:2.7204e-02
+Epoch 57, lr:2.100e-06, train_loss:1.493e-02, val_mAP: 0.8916, val_precision:0.9357, val_recall:0.7448, val_f1_score:0.8228, val_ROC:0.9846, val_loss:2.6397e-02
+Epoch 58, lr:1.620e-06, train_loss:1.534e-02, val_mAP: 0.8892, val_precision:0.9389, val_recall:0.7477, val_f1_score:0.8261, val_ROC:0.9839, val_loss:2.6427e-02
+Epoch 59, lr:1.276e-06, train_loss:1.480e-02, val_mAP: 0.8915, val_precision:0.9422, val_recall:0.7464, val_f1_score:0.8272, val_ROC:0.9839, val_loss:2.5893e-02
+Epoch 60, lr:1.069e-06, train_loss:1.471e-02, val_mAP: 0.8908, val_precision:0.9308, val_recall:0.7541, val_f1_score:0.8284, val_ROC:0.9843, val_loss:2.5240e-02
+----------Validation Results----------
+mAP: 0.8926002979278564, precision:0.941523551940918, recall:0.7533938884735107, f1_score:0.8308205604553223, ROC:0.9847646355628967
+0.9735431671142578 0.7807021737098694 0.9532280564308167 0.953880786895752 0.8488430380821228 0.764477550983429 0.9417751431465149 1.0 0.7186172008514404 0.9133277535438538 0.8265371918678284 0.9933196902275085 0.9356201887130737 0.8176824450492859 0.9674486517906189 
+----------Test Results----------
+mAP: 0.8931071162223816, precision:0.9719018936157227, recall:0.7715829610824585, f1_score:0.850114107131958, ROC:0.977340817451477
+0.9505186080932617 0.9110103845596313 0.9760147929191589 0.9828067421913147 0.6657993793487549 0.7396899461746216 0.9805194735527039 1.0 0.7925522923469543 0.7591145038604736 0.9077587127685547 1.0 0.9341090321540833 0.8251294493675232 0.9715838432312012 
